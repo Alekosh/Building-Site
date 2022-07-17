@@ -16,14 +16,17 @@
   font-weight: 400;
   font-size: 18px;
 }
-.nav__item {
-  
+.nav__item a{
+  line-height: 21px;
+  font-size: 18px;
+
 }
 .nav__item:not(:last-child) {
   margin-right: 50px;
 }
 .nav__link {
   color: $primary-color;
+  display: flex;
 }
 .nav__link img {
   padding-left: 8px;
@@ -34,4 +37,7 @@
 }
 .nav__btn a:not(:last-child) {
   margin-right: 24px;
+}
+.nav__btn a:hover {
+  color: $secondary-color;
 }
